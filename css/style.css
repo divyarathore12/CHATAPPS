@@ -1,0 +1,75 @@
+body{
+    height: 100vh;
+    background-image: linear-gradient(rgb(129, 129, 129),rgb(138, 133, 138));
+
+}
+h1{
+    margin-top: 12px;
+    font-size: 30px;
+    text-align: center;
+}
+.logo
+{
+    display: block;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+}
+
+.container
+{
+    max-width: 955px;
+    /* background-color: rgb(224, 18, 87); */
+    border: 2px solid black;
+    margin: auto;
+    height: 60vh;
+    padding: 33px;
+    overflow-y: auto;
+    margin-bottom: 23px;
+    border-radius: 22px;
+    background-image: url('/bck.jpg');
+
+}
+.message
+{
+background-color: rgb(192, 186, 212);
+width: 24%;
+padding: 10px;
+margin: 17px 12px;
+border: 2px solid black;
+border-radius: 10px;
+}
+.left
+{
+    /* background-color: rgb(130, 130, 165); */
+float: left;
+clear: both;
+}
+.right
+{
+float: right;
+clear: both;
+}
+#send-container
+{
+    display: block;
+    margin: auto;
+text-align: center;
+max-width: 985px;
+width: 100%;
+}
+#messageInp
+{
+    width: 92%;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+}
+.btn
+{
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius:6px;
+    height: 34px;
+    /* width: 9%; */
+}
